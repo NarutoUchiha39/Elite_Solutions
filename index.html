@@ -2,8 +2,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=firefox">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Elite Solutions</title>
+	<style>
+		.navbar{
+			font-size: large;
+			overflow: auto;
+			border-radius: 30px;
+			color: black;
+			box-shadow: 0 6px 4px 0 rgba(0,0,0,.3);
+		}
+		.navbar li{
+            float:left;
+            list-style: none; 
+            margin: 13px 20px;
+        }
+		.navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+           
+        }
+        .navbar li a:hover{
+            color: red
+        }
+		.search{
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+	</style>
 </head>
 <body>
     <style>
@@ -25,7 +51,19 @@
 	#C{	
 		left: 320px;
 	}
+	#FAANG{
+		left:170
+	}
     </style>
+	<nav class="navbar">
+		<li><a href="#">Contact us</a> </li> 
+		<li><a href="#"> Solutions</a></li>
+		<li><a href="#">Request problems</a></li>
+		<div class="search">
+			<input type = "text" name="search" id="search" placeholder="Search this website">
+		</div>
+	</nav>
+	<link rel="icon" type="image/x-icon" href="es1.jpg">
     <h1 style="text-align:center;">Welcome to Elite Solutions !!</h1>
     <h3 style="text-align:center; font-size: x-large;"><span style="font-size:100%;color:blue;" id="star1">★</span><i>Your one stop solution for Leetcode Problems</i><span style="font-size:100%;color:blue;" id="star1">★</span></h3>
     <br><br>
@@ -51,6 +89,10 @@
 	<img class = box id="java" src="java.svg" alt="">
 	<img class = box id="C" src="C++.svg" alt="">
 	<img class = box id="Python" src="python.svg" alt="">
+	<br><br><br><br><br><br><br><br><br>
+	<h2 style="text-align: center; font-size: xx-large;" ><i> Want to land a Job at: </i> </h2>
+	<img class = box id="FAANG" src="FAANG.svg" alt="">
+	<h2 style="text-align: center; font-size: xx-large;" ><i> Our solutions can help you on your journey !! </i> </h2>
     
     
   
