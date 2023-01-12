@@ -18,9 +18,16 @@
         top: -20x;
         left: 80px;
     }
+	#java{
+		top: 20px;
+		left: 100px;
+	}
+	#C{	
+		left: 320px;
+	}
     </style>
     <h1 style="text-align:center;">Welcome to Elite Solutions !!</h1>
-    <h3 style="text-align:center; font-size: x-large;"><i>Your one stop solution for Leetcode Problems</i></h3>
+    <h3 style="text-align:center; font-size: x-large;"><span style="font-size:100%;color:blue;" id="star1">★</span><i>Your one stop solution for Leetcode Problems</i><span style="font-size:100%;color:blue;" id="star1">★</span></h3>
     <br><br>
     <!--nbsp is no back space-->
     <article>
@@ -37,47 +44,17 @@
         <br><br><br>
         <h2><i>Q)</i> What is Elite Solutions?</h2>
         <p style="font-size: 20px;"><i><b>Ans) </b></i>We at Elite Solutions aim to provide simple and easy solutions to the leetcode problems to make your life a bit more easier &#128521	</p>
+		<br>
+		<h2 style="text-align: center; font-size: xx-large;" ><i><span style="font-size:100%;color:blue;" id="star1">★</span> We Provide Solutions in the following Langages:</i><span style="font-size:100%;color:blue;" id="star1">★</span></h2>
+
     </article>
+	<img class = box id="java" src="java.svg" alt="">
+	<img class = box id="C" src="C++.svg" alt="">
+	<img class = box id="Python" src="python.svg" alt="">
     
     
   
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
+
+
 
 </body></html>
