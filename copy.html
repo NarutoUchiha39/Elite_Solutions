@@ -4,8 +4,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Elite Solutions</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	
+	<style>
+        
+		.navbar{
+			
+			font-size: large;
+			overflow: auto;
+			border-radius: 30px;
+            background-color: black;
+			box-shadow: 0 6px 4px 0 rgba(0,0,0,.3);
+		}
+		.navbar li{
+            float:left;
+            list-style: none; 
+            margin: 13px 20px;
+        }
+		.navbar li a{
+            color: white;
+            padding: 3px 3px;
+            text-decoration: none;
+           
+        }
+        .navbar li a:hover{
+            color: red
+        }
+		.search{
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+        .navbar input{
+            border-radius: 30px;
+        }
+	</style>
 </head>
 <body>
     <style>
@@ -30,45 +61,16 @@
 	#FAANG{
 		left:170
 	}
-    .navbar_Custom{
-        background-color:#563d7c !important;
-       z-index: 1;
-    }
-    .navbar_Custom a{
-        color: white;
-    }
-    .navbar_Custom a{
-        color: white;
-    }
-    
     </style>
-	<nav class="navbar navbar-expand-lg  navbar_Custom" style="position: fixed; width: 100%;">
-        <a class="navbar-brand" href="ok.html">Elite Solutions</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="Forms.html">Contact Us </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="ProblemList.html">Solutions</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Request Problems</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" >
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: rgb(238, 143, 20); border-color:rgb(238, 143, 20);">Search</button>
-          </form>
-        </div>
-      </nav>
+	<nav class="navbar">
+		<li><a href="Forms.html">Contact us</a> </li> 
+		<li><a href="ProblemList.html" target="_blank"> Solutions</a></li>
+		<li><a href="#">Request problems</a></li>
+		<div class="search">
+			<input type = "text" name="search" id="search" placeholder="Search this website">
+		</div>
+	</nav>
 	<link rel="icon" type="image/x-icon" href="es1.jpg">
-    <br><br><br>
-
     <h1 style="text-align:center;">Welcome to Elite Solutions !!</h1>
     <h3 style="text-align:center; font-size: x-large;"><span style="font-size:100%;color:blue;" id="star1">★</span><i>Your one stop solution for Leetcode Problems</i><span style="font-size:100%;color:blue;" id="star1">★</span></h3>
     <br><br>
