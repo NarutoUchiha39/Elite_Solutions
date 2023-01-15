@@ -23,6 +23,9 @@ h3 {
 	color: white;
 }
 .navbar_Custom a {
+	color: lightgray;
+}
+.navbar_Custom a:hover {
 	color: white;
 }
 .leetcode {
