@@ -14,7 +14,8 @@ h3 {
 }
 body{
 	background-image:url('./Asset/background.webp');
-	border-image-repeat: repeat;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 .centerh2 {
 	text-align: center;
