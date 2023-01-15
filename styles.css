@@ -12,6 +12,10 @@ h3 {
 	text-align: center;
 	font-size: x-large;
 }
+body{
+	background-image:url('./Asset/background.webp');
+	border-image-repeat: repeat;
+}
 .centerh2 {
 	text-align: center;
 }
