@@ -1,68 +1,79 @@
+p {
+	font-size: 20px;
+}
+h2 {
+	font-size: xx-large;
+}
 .navbar_Custom {
-    background-color: #563d7c !important;
-    z-index: 1;
+	background-color: #563d7c !important;
+	z-index: 1;
 }
 .navbar_Custom a {
-    color: white;
+	color: white;
 }
 .navbar_Custom a {
-    color: white;
+	color: white;
 }
-.leetcode{
-    display: block;
-    margin: 2rem auto 2rem auto;
-    width:25rem;
+.leetcode {
+	display: block;
+	margin: 2rem auto 2rem auto;
+	width: 25rem;
 }
-.languages{
-    margin:3rem 0 3rem 0;
-    padding:0 15rem 0 15rem;
-    display: flex;
-    justify-content:space-between;
+.languages {
+	margin: 3rem 0 3rem 0;
+	padding: 0 15rem 0 15rem;
+	display: flex;
+	justify-content: space-between;
 }
-.java{
-    width:15rem;
+.java {
+	width: 15rem;
 }
-.cpp{
-    width:15rem;
+.cpp {
+	width: 15rem;
 }
-.python{
-    width:15rem;
+.python {
+	width: 15rem;
 }
-.faang{
-    display: block;
-    margin: 2rem auto 2rem auto;
-    width:50rem;
+.faang {
+	display: block;
+	margin: 2rem auto 2rem auto;
+	width: 50rem;
+}
+.article {
+	margin: 0 2rem 0 2rem;
 }
 
-table,th,td{
-    border: 2px solid black;
-    border-collapse: collapse;
-   }
-    .center{
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .center th{
-        font-size: x-large;
-    }
-    .center td{
-        font-size: x-large;
-        font-style: italic;
-    }
-    .center a{
-        text-decoration: none;
-        color: blue;
-        padding-left: 20px;
-    }
-    .center a:hover{
-        color: red;
-    }
-    .center a:visited{
-        color: green;
-    }
-.pythonSolution{
-    display: block;
-    margin:0 auto 0 auto;
-    padding-bottom: 1.25rem;
-    width:3rem;
+table,
+th,
+td {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+.center {
+	margin-right: auto;
+	margin-left: auto;
+}
+.center th {
+	font-size: x-large;
+}
+.center td {
+	font-size: x-large;
+	font-style: italic;
+}
+.center a {
+	text-decoration: none;
+	color: blue;
+	padding-left: 20px;
+}
+.center a:hover {
+	color: red;
+}
+.center a:visited {
+	color: green;
+}
+.pythonSolution {
+	display: block;
+	margin: 0 auto 0 auto;
+	padding-bottom: 1.25rem;
+	width: 3rem;
 }
