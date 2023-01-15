@@ -61,12 +61,20 @@ body{
 .article {
 	margin: 0 2rem 0 2rem;
 }
-
-table,
-th,
-td {
-	border: 2px solid black;
+table,td{
+	border:2px solid black;
 	border-collapse: collapse;
+	border-radius:6px;
+}
+
+tr:nth-child(even) {
+	border: 2px solid black;
+	background-color: #cfcaca
+  }
+table th{
+	border: 2px solid black;
+	background-color: white;
+	color: black;
 }
 .center {
 	margin-right: auto;
@@ -93,6 +101,6 @@ td {
 .pythonSolution {
 	display: block;
 	margin: 0 auto 0 auto;
-	padding-bottom: 1.25rem;
+	padding-bottom: 0.5rem;
 	width: 3rem;
 }
