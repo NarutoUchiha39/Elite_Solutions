@@ -1,0 +1,35 @@
+.navbar_Custom {
+    background-color: #563d7c !important;
+    z-index: 1;
+}
+.navbar_Custom a {
+    color: white;
+}
+.navbar_Custom a {
+    color: white;
+}
+.leetcode{
+    display: block;
+    margin: 2rem auto 2rem auto;
+    width:25rem;
+}
+.languages{
+    margin:3rem 0 3rem 0;
+    padding:0 15rem 0 15rem;
+    display: flex;
+    justify-content:space-between;
+}
+.java{
+    width:15rem;
+}
+.cpp{
+    width:15rem;
+}
+.python{
+    width:15rem;
+}
+.faang{
+    display: block;
+    margin: 5rem auto 5rem auto;
+    width:50rem;
+}
