@@ -1,8 +1,19 @@
 p {
 	font-size: 20px;
 }
+
+h1 {
+	text-align: center;
+}
 h2 {
 	font-size: xx-large;
+}
+h3 {
+	text-align: center;
+	font-size: x-large;
+}
+.centerh2 {
+	text-align: center;
 }
 .navbar_Custom {
 	background-color: #563d7c !important;
