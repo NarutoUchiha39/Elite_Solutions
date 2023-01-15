@@ -33,3 +33,36 @@
     margin: 2rem auto 2rem auto;
     width:50rem;
 }
+
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+   }
+    .center{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .center th{
+        font-size: x-large;
+    }
+    .center td{
+        font-size: x-large;
+        font-style: italic;
+    }
+    .center a{
+        text-decoration: none;
+        color: blue;
+        padding-left: 20px;
+    }
+    .center a:hover{
+        color: red;
+    }
+    .center a:visited{
+        color: green;
+    }
+.pythonSolution{
+    display: block;
+    margin:0 auto 0 auto;
+    padding-bottom: 1.25rem;
+    width:3rem;
+}
