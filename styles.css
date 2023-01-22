@@ -12,12 +12,9 @@ h3 {
 	text-align: center;
 	font-size: x-large;
 }
-body{
-	background-image:url('./Asset/background.webp');
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+
 .centerh2 {
+	opacity: 0;
 	text-align: center;
 }
 .navbar_Custom {
@@ -39,10 +36,12 @@ body{
 	width: 25rem;
 }
 .languages {
+	
 	margin: 3rem 0 3rem 0;
 	padding: 0 15rem 0 15rem;
 	display: flex;
 	justify-content: space-between;
+	
 }
 .java {
 	width: 15rem;
@@ -60,6 +59,10 @@ body{
 }
 .article {
 	margin: 0 2rem 0 2rem;
+	opacity: 0;
+}
+.show{
+	opacity: 1;
 }
 table,td{
 	border:2px solid black;
@@ -104,3 +107,5 @@ table th{
 	padding-bottom: 0.5rem;
 	width: 3rem;
 }
+
+
