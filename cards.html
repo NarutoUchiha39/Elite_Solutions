@@ -23,7 +23,8 @@
         }
 
     </style>
-  
+    <button onclick="ok()">Button</button>
+    <p id="demo"></p>
     <div class="cards">This is a card</div>
     <div class="cards">This is a card</div>
     <div class="cards">This is a card</div>
@@ -38,7 +39,20 @@
     <div class="cards">This is a card</div>
     <div class="cards">This is a card</div>
     <div class="cards">This is a card</div>
+    
     
     
 </body>
+<script>
+    var i = 0
+    let text = "okokokokokokokokokoko"
+    function ok(){
+        if(i<text.length){
+            document.getElementById("demo").innerHTML+=text.charAt(i)
+            i++
+            setTimeout(ok,50)
+        }
+    }
+
+</script>
 </html>
